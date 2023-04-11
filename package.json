@@ -1,0 +1,27 @@
+{
+  "name": "whisperinghues",
+  "publisher":"rachpradhan",
+  "displayName": "whisperinghues",
+  "description": "Whispering Pastels is a delightful and versatile Visual Studio Code theme that brings a gentle touch of pastel colors to your coding experience. Designed with a balanced blend of beauty and elegance, it offers a pleasant and calming atmosphere for developers of all backgrounds",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "darkhues",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkhues-color-theme.json"
+      },
+      {
+        "label": "softhues",
+        "uiTheme": "vs",
+        "path": "./themes/softhues.json"
+      }
+    ]
+  }
+}
